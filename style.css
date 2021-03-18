@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ .clearfix::after {
+     content: "";
+     display: table;
+     clear: both;
+ }
+
+ body {
+     width: 80%;
+     margin: auto;
+ }
+ header {
+     background-color: aliceblue;
+     height: 100px;
+ }
+ .img_site {
+     background-color: bisque;
+     height: 400px;
+ }
+ .leadership {
+     background-color: aliceblue;
+     height: 100px;
+ }
